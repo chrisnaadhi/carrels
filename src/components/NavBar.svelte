@@ -9,11 +9,7 @@
           <!-- Logo -->
           <div class="logo">
             <a href="/" class="flex items-center py-4 px-2">
-              <span
-                class="font-bold bg-gradient-55 bg-clip-text text-transparent text-2xl"
-              >
-                Carrels
-              </span>
+              <span class="brand"> Carrels </span>
             </a>
           </div>
           <!-- Navbar Menu -->
@@ -25,10 +21,10 @@
         </div>
         <!-- Secondary Navbar items -->
         <div class="hidden md:flex items-center space-x-3">
-          <a href="/" class="login bg-gradient-55 text-white">Login</a>
+          <a href="/" class="login bg-gradient-26 text-white">Login</a>
           <a
             href="/"
-            class="signup text-gray-500 border-1 hover:bg-gradient-49 hover:text-white"
+            class="signup text-gray-500 border-1 hover:bg-gradient-26 hover:text-white"
             >Sign Up</a
           >
         </div>
@@ -64,5 +60,9 @@
   .login,
   .signup {
     @apply py-2 px-2 w-20 text-center font-medium text-gray-500 rounded transition duration-300;
+  }
+  .brand {
+    font-family: "Carattere", cursive;
+    @apply font-bold bg-gradient-26 bg-clip-text text-transparent text-5xl;
   }
 </style>
